@@ -1,0 +1,4 @@
+node_modules
+with-ts-loader/example_file.js
+with-tsc/example_file.js
+with-tsc/example_file.js.map
