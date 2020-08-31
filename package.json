@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"with-tsc": "tsc --project ."
+		"build": "tsc --project ."
 	},
 	"author": "",
 	"license": "ISC",
