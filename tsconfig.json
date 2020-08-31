@@ -2,13 +2,10 @@
 	"compilerOptions":{
 		"target":"ES6",
 		"module": "CommonJS",
-		"outDir": "./with-tsc",
+		"outDir": "./dist",
 		"types": []
 	},
 	"files":[
-		"./example_file.ts"
-	],
-	"exclude": [
-		"./node_modules/@types/node/*"
+		"./index.ts"
 	]
 }
