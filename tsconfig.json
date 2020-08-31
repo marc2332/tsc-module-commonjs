@@ -1,17 +1,14 @@
 {
 	"compilerOptions":{
-		"sourceMap": true,
-		"target": "es6",
-		"lib": [
-			"es6"
-		],
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"esModuleInterop": true,
-		"resolveJsonModule": true,
-		"outDir": "./with-tsc"
+		"target":"ES6",
+		"module": "CommonJS",
+		"outDir": "./with-tsc",
+		"types": []
 	},
 	"files":[
 		"./example_file.ts"
+	],
+	"exclude": [
+		"./node_modules/@types/node/*"
 	]
 }

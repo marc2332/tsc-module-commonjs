@@ -1,7 +1,3 @@
-const whatever = (lalalala: string) => {
-	console.log(lalalala)
-}
+import { valueOfPi } from "./constants";
 
-module.exports = {
-	whatever
-}
+export const twoPi = valueOfPi * 2;
